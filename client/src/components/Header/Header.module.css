@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 80px;
+}

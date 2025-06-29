@@ -1,0 +1,27 @@
+.item {
+  margin-right: 40px;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 50px;
+  color: var(--color-black-1);
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.upload {
+  background: url('../../assets/svg/upload-pic.svg') no-repeat left center;
+}
+
+.plus {
+  background: url('../../assets/svg/plus-pic.svg') no-repeat left center;
+}
+
+.history {
+  background: url('../../assets/svg/history-pic.svg') no-repeat left center;
+}

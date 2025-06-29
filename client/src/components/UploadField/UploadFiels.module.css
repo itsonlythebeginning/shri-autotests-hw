@@ -1,0 +1,75 @@
+.wrapper {
+  background: var(--color-pink-2);
+  border-radius: 40px;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 35px;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.bottomWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.dragActive {
+  background: var(--color-green-1);
+  transition: all 0.3s ease;
+}
+
+.error {
+  color: var(--color-orange-1);
+}
+
+.btnWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.deleteBtn {
+  color: var(--color-white-1);
+  background: var(--color-black-1);
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid var(--color-white-1);
+  border-right-color: var(--color-green-2);
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {
+  to {
+    transform: rotate(1turn);
+  }
+}

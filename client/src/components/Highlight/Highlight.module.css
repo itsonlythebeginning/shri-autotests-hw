@@ -1,0 +1,22 @@
+.wrapper {
+  background: var(--color-white-1);
+  border-radius: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  height: 117px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-black-1);
+}
+
+.subTitle {
+  font-size: 20px;
+  color: var(--color-black-1);
+}

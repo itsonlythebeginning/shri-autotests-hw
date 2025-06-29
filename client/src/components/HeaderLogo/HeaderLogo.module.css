@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logoLink {
+  margin-right: 40px;
+}
+
+.logoTitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px;
+  background: var(--color-pink-3);
+}
